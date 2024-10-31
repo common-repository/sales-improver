@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-1 {
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+}
+
+.col-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+
+.col-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.col-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.col-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+
+.col-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+
+.col-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+
+.col-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.col-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+}
+
+.col-11 {
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+}
+
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.pt, .py{
+    padding-top: 1rem !important;
+}
+
+.pb, .py{
+    padding-bottom: 1rem !important;
+}
+
+.pl, .px{
+    padding-left: 1rem !important;
+}
+
+.pr, .px{
+    padding-right: 1rem !important;
+}
+
+.my-0{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+.input-group-prepend,
+.input-group-append {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.input-group-text {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+}
+
+
+.email-section .input-group-prepend{
+    width: 40px;
+}
+
+.email-section .input-group-append{
+    width: 120px;
+}
+
+.email-section .input-group-append button{
+    width: 100%;
+    border-radius: 0;
+}
+.email-section .form-control{
+    width: calc(100% - 160px);
+    border-radius: 0;
+    margin: 0;
+}
+
+.bs-btn{
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 400;
+    color: #fff;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #007bff;
+    padding: 0.9rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.bs-btn:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.bs-btn:focus, .bs-btn.focus, .bs-btn.active {
+    outline: 0;
+    color: #fff;
+    background-color: #135e96;
+    border: 1px solid #135e96;
+}
+
+.bs-btn.disabled, .bs-btn:disabled {
+    opacity: 0.65;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.tab-content > .tab-pane {
+    display: none;
+}
+
+.tab-content > .active {
+    display: block;
+}
+.tab-pane{
+    padding: 20px 0;
+}
+.sales-improver input[type="number"]{
+    max-width: 70px;
+}
+.sales-improver .nav-tab.disabled{
+    background: #999;
+    color: white;
+}
+
+.notice > .notice-wrap{
+    margin: .5em 0;
+    padding: 2px;
+}
+
+.d-none{
+    display: none;
+}
+
